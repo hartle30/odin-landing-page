@@ -77,3 +77,42 @@ button {
     height: auto;
     width: 600px;
 }
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 40px;
+}
+
+.random-info .title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card img {
+    height: auto;
+    width: 250px;
+    border-radius: 8px;
+    border-color: #3882f6;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 250px;
+}
+
+.card p {
+    text-align: center;
+    margin: 8px;
+}
