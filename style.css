@@ -137,3 +137,28 @@ button {
     margin: 0;
     padding: 0 40px;
 }
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 40px;
+    margin: 80px 40px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action button {
+    border: 2px solid #e5e7eb;
+}
+
+.call-to-action .title {
+    font-size: 24px;
+    font-weight: 700;
+}
